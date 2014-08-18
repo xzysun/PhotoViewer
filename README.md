@@ -7,10 +7,20 @@ PhotoViewer
 
 使用方法
 申明一个类，实现<PhotoViewerDatasource>
-实现方法
+实现方法<br>
+<code>
 -(NSInteger)numbersOfPhotos;
+</code>
+<br>
+<code>
 -(PhotoItem *)photoItemForIndex:(NSInteger)index;
-调用代码
-PhotoViewer *viewer = [PhotoViewer ViewerInWindow];
-viewer.datasource = self;
+</code>
 
+调用代码<br>
+<code>
+PhotoViewer *viewer = [PhotoViewer ViewerInWindow];
+</code>
+<br>
+<code>
+viewer.datasource = self;
+</code>
