@@ -22,5 +22,6 @@
 @property (nonatomic, assign) NSInteger index;
 @property (nonatomic, strong) PhotoItem *item;
 @property (nonatomic, assign) BOOL zoomPhotosToFill;
+@property (nonatomic, strong, readonly) UIImage *currentImage;
 @property (nonatomic, assign) id<PhotoPageDelegate> photoDelegate;
 @end

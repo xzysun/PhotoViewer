@@ -31,7 +31,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.list = @[@"http://img3.cache.netease.com/cnews/2014/8/15/20140815131859749f4.jpg", @"http://img3.cache.netease.com/auto/2014/8/15/20140815092747edc4b.jpg", @"http://img4.cache.netease.com/house/2014/8/14/20140814175001decc7.jpg"];
+    self.list = @[@"http://file.ynet.com/2/1510/13/10444105-500.jpg", @"http://file.ynet.com/2/1510/13/10444107-500.jpg", @"http://file.ynet.com/2/1510/13/10444120-500.jpg", @"http://file.ynet.com/2/1510/13/10444123-500.jpg"];
 }
 
 - (void)didReceiveMemoryWarning
